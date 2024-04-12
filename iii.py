@@ -8,5 +8,8 @@ string = ', '.join(cars)
 
 
 
+
 print(string)
 print(type(string))
+print(cars.index('Mercedes'))
+print(cars.index('BMW'))
