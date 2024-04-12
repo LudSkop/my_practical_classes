@@ -9,3 +9,4 @@ string = ', '.join(cars)
 
 
 print(string)
+print(type(string))
