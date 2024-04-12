@@ -14,4 +14,6 @@ print(appear)
 print(appear[2])
 print(appear[1])
 print(appear[0])
+print(appear[0][2])
+print(appear[1][4])
 
