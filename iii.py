@@ -9,7 +9,7 @@ string = ', '.join(cars)
 
 
 
-print(string)
+print(Fore.LIGHTGREEN_EX + string)
 print(type(string))
 print(cars.index('Mercedes'))
 print(cars.index('BMW'))
