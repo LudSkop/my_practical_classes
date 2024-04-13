@@ -3,17 +3,9 @@ from tabulate import tabulate
 
 
 
-cars = ['BMW', 'Tesla', 'Toyota', 'Mercedes', 'liuda', 'vlad', 'oleg',]
+cars = ['BMW', 'Tesla', 'Toyota','BMW', 'Mercedes', 'liuda', 'vlad', 'oleg',]
+number = [1, 3, 9, 22,]
 
-cars.append('opel')
-cars.append('buss')
-cars.insert(1,'Alissa')
-
-
-
-
-
-print(cars[0:3:2])
-print(cars[::2])
-print(cars[::])
+print('liuda' in cars)
+print(cars.count('BMW'))
 
