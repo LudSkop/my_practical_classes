@@ -29,5 +29,6 @@ def get_description(key):
     return k.get(key)
         
 if __name__ == "__main__":
-    print(get_grade(sys.argv[1]))
+    print(get_grade(sys.argv[4]))
+    print(get_description(sys.argv[3]))
 
