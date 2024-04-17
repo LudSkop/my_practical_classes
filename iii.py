@@ -22,6 +22,14 @@ def split_list(grade):
     
 if __name__ == "__main__":
     data = {3, 5, 6, 78, 90,}
-    print(split_list(sys.argv[1:]))
+    less, more = split_list(data)
+    data_dict = {
+        'less': less,
+        'more': more,
+    }
+    table = tabulate(data_dict, headers="keys", tablefmt='grid')
+
+    print(table)
+
     
     
